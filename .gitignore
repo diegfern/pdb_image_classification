@@ -1,0 +1,11 @@
+blastdb/
+ncbi-blast-2.13.0+/
+temp/
+coordinates/
+pdb/
+find_pdb/
+image/
+results/
+.idea/
+.ipynb_checkpoints/
+
