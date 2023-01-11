@@ -24,14 +24,15 @@ then
         wget "https://ftp.ncbi.nlm.nih.gov/blast/db/pdbaa.tar.gz"
     fi
     mkdir -p blastdb/pdbaa
-    tar -xf "./swissprot.tar.gz" -C blastdb/pdbaa
+    tar -xf "./pdbaa.tar.gz" -C blastdb/pdbaa
 fi
 
 mkdir -p temp
 mkdir -p find_pdb
+mkfit -p pdb
 rm -f ./*.tar.gz
 
-python3 -m pip install -r ./requirements.txt
+python3 -m pip install -U --upgrade-strategy=only-if-needed -r ./requirements.txt
 
 echo "All done."
 

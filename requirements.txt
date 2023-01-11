@@ -1,5 +1,5 @@
 Bio==1.5.3
-joblib==1.1.0
+joblib~=1.1.0
 keras==2.11.0
 numpy==1.23.5
 pandas==1.4.4
